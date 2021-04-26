@@ -1,0 +1,30 @@
+It was the best of times, it was the worst of times.
+
+********** command line ****************
+ls 列出当前目录 
+cd 到指定目录
+mkdir 新建文件夹
+cd .. 返回上一级目录
+cd ~(Tilde) 返回users root directory
+control +a 到命令行开头
+control +e 到命令行结尾
+control +u 清除一整行
+👆/👇 寻找previous command
+
+
+rm remove files
+rm -r remove all the child folders,remove directories
+rm -rf wipes your hard disk to the point where you cannot recover it
+
+********** git ****************
+git init        initialize a git repository(.git cannot see this git)
+ls -a          can list.git and others
+git status     can see what is in your staging area(files in your working directory you want to commit),red is untracked files
+git diff shows differences 
+
+git checkout    roll back to the previous version
+git branch set up a new branch
+git checkout branchName switch to this branch 
+git log    shows commits
+git remote add orgin(name of remote repository) 建立remote repository
+git push -u origin(name of local repository) master(name of branch)  push local respository to the remote repository
